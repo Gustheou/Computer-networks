@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControleTelaServidor">
+   <children>
+      <ImageView fitHeight="377.0" fitWidth="502.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Laboratory.gif" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="10.0" layoutY="98.0" prefHeight="80.0" prefWidth="144.0" rotate="-6.0" style="-fx-background-color: gray; -fx-border-color: #151718; -fx-border-width: 2;">
+         <children>
+            <Label fx:id="serverAdressLabel" layoutX="4.0" layoutY="6.0" text="Endereco do servidor:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

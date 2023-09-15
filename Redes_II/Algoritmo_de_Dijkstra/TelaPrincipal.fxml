@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControleMenu">
+   <children>
+      <ImageView fx:id="backgroudImageView" fitHeight="400.0" fitWidth="571.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/TelaMenu.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="buttonIniciarImage" fitHeight="39.0" fitWidth="138.0" layoutX="25.0" layoutY="122.0" onMouseClicked="#buttonIniciarImageOnMouseClicked" onMouseEntered="#buttonIniciarImageOnMouseEntered" onMouseExited="#buttonIniciarImageOnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/BotaoNormal.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="extraImageView" fitHeight="191.0" fitWidth="196.0" layoutX="316.0" layoutY="-18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Extra.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="grafoPane" layoutX="47.0" prefHeight="400.0" prefWidth="443.0" visible="false" />
+      <Label fx:id="infoLabel" layoutX="15.0" layoutY="9.0" textFill="#48463a">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="pesoLabel" layoutX="14.0" layoutY="350.0" textFill="#48463a">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

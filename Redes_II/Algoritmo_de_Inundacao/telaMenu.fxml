@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="806.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControleMenu">
+   <children>
+      <ImageView fitHeight="461.0" fitWidth="807.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="138.0" layoutX="315.0" layoutY="136.0" onMouseClicked="#changeScreenOpcao1" pickOnBounds="true" preserveRatio="true" rotate="-22.8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="101.0" layoutX="263.0" layoutY="209.0" onMouseClicked="#changeScreenOpcao2" pickOnBounds="true" preserveRatio="true" rotate="-9.5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="130.0" layoutX="377.0" layoutY="246.0" onMouseClicked="#changeScreenOpcao3" pickOnBounds="true" preserveRatio="true" rotate="5.7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="130.0" layoutX="300.0" layoutY="307.0" onMouseClicked="#changeScreenOpcao4" pickOnBounds="true" preserveRatio="true" rotate="26.6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="imageAbout" fitHeight="40.0" fitWidth="95.0" layoutX="711.0" layoutY="10.0" onMouseClicked="#imageAboutOnMouseClicked" onMouseEntered="#imageAboutOnMouseEntered" onMouseExited="#imageAboutOnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/About.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="soundImage" fitHeight="55.0" fitWidth="79.0" layoutX="723.0" layoutY="60.0" onMouseClicked="#soundImageOnMouseClicked" onMouseEntered="#soundImageOnMouseEntered" onMouseExited="#soundImageOnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Sound_on.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="aboutScreen" fitHeight="415.0" fitWidth="568.0" layoutX="124.0" layoutY="9.0" opacity="0.85" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/AboutScreen.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aboutBackButton" fitHeight="163.0" fitWidth="359.0" layoutX="221.0" layoutY="374.0" onMouseClicked="#closeAboutMenuOnClicked" onMouseEntered="#changeBackButtonEffectEntered" onMouseExited="#changeBackButtonEffectExited" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/AboutScreenBackButton.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Pane fx:id="infoPane" layoutX="161.0" layoutY="60.0" prefHeight="200.0" prefWidth="486.0" visible="false">
+         <children>
+            <Label prefHeight="16.0" prefWidth="486.0" text="O algoritmo de inundacao eh um algoritmo no qual cada pacote" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutY="16.0" prefHeight="16.0" prefWidth="486.0" text="de entrada eh enviado para todas as linhas de saída, gerando" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutY="32.0" prefHeight="16.0" prefWidth="486.0" text="uma grande quantidade de pacotes duplicados (infinitos)." textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControleOpcao3">
+   <children>
+      <ImageView fitHeight="454.0" fitWidth="619.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Opcao3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="destinoImage" fitHeight="150.0" fitWidth="200.0" layoutX="376.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/PersonaBeforePackage.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="voltarImage" fitHeight="81.0" fitWidth="92.0" layoutX="512.0" layoutY="371.0" onMouseClicked="#voltarImageOnMouseClicked" onMouseEntered="#voltarImageOnMouseEntered" onMouseExited="#voltarImageOnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Voltar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="iniciarImage" fitHeight="40.0" fitWidth="83.0" layoutX="29.0" layoutY="400.0" onMouseClicked="#iniciarImageOnMouseClicked" onMouseEntered="#iniciarImageOnMouseEntered" onMouseExited="#iniciarImageOnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/IniciarButton.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="soundImage" fitHeight="55.0" fitWidth="79.0" layoutX="527.0" layoutY="67.0" onMouseClicked="#soundImageOnMouseClicked" onMouseEntered="#soundImageOnMouseEntered" onMouseExited="#soundImageOnMouseExited" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Sound_on.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="packageImage" fitHeight="19.0" fitWidth="29.0" layoutX="73.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage1" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage2" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage3" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage4" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage5" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage6" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage7" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage8" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage9" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage10" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage11" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage12" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage13" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage14" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage15" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage16" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage17" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage18" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage19" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage20" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage21" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage22" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage23" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage24" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage25" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="packageImage26" fitHeight="19.0" fitWidth="29.0" layoutX="83.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Imagens/Package.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

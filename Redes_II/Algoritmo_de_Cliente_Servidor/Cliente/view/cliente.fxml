@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControleCliente">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="255.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Cliente_Screen.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nomeSalaTextField" cacheShape="false" layoutX="23.0" layoutY="331.0" prefHeight="12.0" prefWidth="203.0" />
+      <TextField fx:id="usuarioTextField" cacheShape="false" layoutX="27.0" layoutY="45.0" prefHeight="24.0" prefWidth="196.0" promptText="Digite seu nome" />
+      <TextField fx:id="enderecoServidorTextField" cacheShape="false" layoutX="29.0" layoutY="120.0" prefHeight="24.0" prefWidth="90.0" promptText="192.168...">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="portaServidorTextField" cacheShape="false" layoutX="140.0" layoutY="120.0" prefHeight="24.0" prefWidth="68.0" promptText="1234">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="feedbackTextArea" editable="false" focusTraversable="false" layoutX="23.0" layoutY="200.0" prefHeight="94.0" prefWidth="203.0" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextArea>
+      <ImageView fitHeight="24.0" fitWidth="98.0" layoutX="79.0" layoutY="164.0" onMouseClicked="#conectarServerOnMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="98.0" layoutX="20.0" layoutY="367.0" onMouseClicked="#criarSalaOnMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="98.0" layoutX="129.0" layoutY="367.0" onMouseClicked="#entrarSalaOnMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="17.0" layoutX="222.0" layoutY="8.0" onMouseClicked="#ajudaOnMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <AnchorPane fx:id="blackDimAnchorPane" opacity="0.4" prefHeight="400.0" prefWidth="250.0" style="-fx-background-color: black;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="popupPaneAnchorPane" layoutX="28.0" layoutY="100.0" prefHeight="176.0" prefWidth="203.0" visible="false">
+         <children>
+            <ImageView fx:id="popupImageView" fitHeight="176.0" fitWidth="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Help.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="105.0" layoutX="48.0" layoutY="141.0" onMouseClicked="#sairAjudaButtonOnMouseClicked" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="15.0" fitWidth="17.0" layoutX="178.0" layoutY="9.0" onMouseClicked="#sairAjudaButtonXOnMouseClicked" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
